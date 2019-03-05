@@ -1,0 +1,18 @@
+[Global]
+Coinbase = "0x0000000000000000000000000000000000000000"
+  [Global.ChainConfig]
+  ChainID = 999
+  FakeMode = false
+  Greedy = 4
+  TxExecutorType = "simple"
+  TxSignerType = "fake"
+  BlockSigFake = true
+  MaxNonceBitLength = 1024000
+  [Global.PoolConfig]
+  NoLocals = true
+[Ftl]
+  [Ftl.Genesis]
+  Round = 1539256736
+  PubKey = [0]
+  Sig = [0]
+  Difficulty = 1000
