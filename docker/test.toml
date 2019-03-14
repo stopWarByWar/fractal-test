@@ -1,18 +1,18 @@
-[Global]
-Coinbase = "0x0000000000000000000000000000000000000000"
-  [Global.ChainConfig]
+[Ftl]
+PkgStoreCacheSize=4096
+  [Ftl.ChainConfig]
   ChainID = 999
-  FakeMode = false
   Greedy = 4
   TxExecutorType = "simple"
   TxSignerType = "fake"
   BlockSigFake = true
   MaxNonceBitLength = 1024000
-  [Global.PoolConfig]
+  [Ftl.TxPoolConfig]
   NoLocals = true
-[Ftl]
+  [Ftl.PkgPoolConfig]
+  NoLocals = true
   [Ftl.Genesis]
   Round = 1539256736
   PubKey = [0]
   Sig = [0]
-  Difficulty = 1000
+  Difficulty = 300000000000000000

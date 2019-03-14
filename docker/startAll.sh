@@ -1,30 +1,28 @@
-time python docker.py stop
-time python docker.py delete
-time python docker.py start -n 60 -m 5
-time python docker.py upload -n 60 -m 5 -f ./gftl
-time python docker.py upload -n 60 -m 5 -f ./txgen
-time python docker.py upload -n 60 -m 5 -f ./test.toml
-time python docker.py upload -n 60 -m 5 -f ./startNode.sh
-time python docker.py upload -n 60 -m 5 -f ./startPacker.sh
-time python docker.py upload -n 60 -m 5 -f ./startTx.sh
-time python docker.py upload -n 60 -m 5 -f ./generateAccount.sh
+#!/bin/sh
+killall -9 txgen
+killall -9 txgenkillall -9 gftl
 
-time python docker.py exec -c "cd /root/run && bash generateAccount.sh"
+time python test.py exec -c "killall -9 gftl"
+time python test.py exec -c "rm -rf /root/run/*"
+time python test.py upload -f ./gftl
+time python test.py upload -f ./test.toml
+time python test.py upload -f ./startNode.sh
+time python test.py upload -f ./generateAccount.sh
+
+rm /root/run/data/keystore/*
+bash /root/run/generateAccount.sh
+
+time python test.py exec -c "cd /root/run && bash generateAccount.sh"
 time python generateAlloc.py
-time python docker.py upload -n 60 -m 5 -f ./genesis_alloc.json
+time python test.py upload -f ./genesis_alloc.json
 
-killall -9 gftl
-rm -rf boot/data
-mkdir -p boot/data
-cp boot/nodekey boot/data/nodekey
-cd boot
-nohup ./gftl --config ../test.toml --genesisAlloc ../genesis_alloc.json --rpc --rpcport 8545 --datadir data --port 30303 --pprof --pprofport 6060 --verbosity 3 --metrics > test.log 2>&1 &
-cd ..
-sleep 1
+rm -rf /root/run/data/chaindata
 
-time python docker.py exec -l 10 -s 0 -d -c "cd /root/run && bash startNode.sh"
+nohup ./gftl --unlock 123 --pack --metrics --influxdburl http://http://129.28.54.225:8086 --influxdbdatabase metrics --influxdbusername fractal --influxdbpassword fractal666 --config test.toml --genesisAlloc genesis_alloc.json --rpc --rpcport 8545 --datadir data --port 30303 --pprof --pprofport 6060 --verbosity 3 --metrics > /home/test.log 2>&1 &
 sleep 3
-time python docker.py exec -l 12 -s 10 -d -c "cd /root/run && bash startPacker.sh"
-sleep 3
-time python docker.py exec -l 12 -s 10 -d -c "cd /root/run && bash startTx.sh"
 
+bash startTx.sh
+sleep 3
+
+cd /root/boot
+time python test.py exec -c "cd /root/run && bash startNode.sh"
