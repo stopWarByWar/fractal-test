@@ -1,11 +1,11 @@
 [Ftl]
-PkgStoreCacheSize=4096
+PkgStoreCacheSize=2048
   [Ftl.ChainConfig]
   ChainID = 999
   Greedy = 4
   TxExecutorType = "simple"
   TxSignerType = "fake"
-  BlockSigFake = true
+  BlockSigFake = false
   MaxNonceBitLength = 1024000
   [Ftl.TxPoolConfig]
   NoLocals = true
