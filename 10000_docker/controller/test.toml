@@ -1,0 +1,26 @@
+[Ftl]
+PkgStoreCacheSize=4096
+  [Ftl.ChainConfig]
+  ChainID = 999
+  Greedy = 4
+  TxExecutorType = "dumb"
+  TxSignerType = "fake"
+  BlockSigFake = false
+  MaxNonceBitLength = 1024000
+  [Ftl.TxPoolConfig]
+  NoLocals = true
+  FakeMode = true
+  [Ftl.PkgPoolConfig]
+  FakeMode = true
+  NoLocals = true
+  StartCleanTime = 100000
+  CleanPeriod = 2000
+  LeftEleNumEachAddr = 30
+  [Ftl.Genesis]
+  Round = 1539256736
+  PubKey = [0]
+  Sig = [0]
+  Difficulty = 150000000000000000000
+[Node]
+  [Node.P2P]
+  MaxPeers = 25
