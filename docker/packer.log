@@ -1,0 +1,226 @@
+t=2019-05-15T10:03:44+0800 lvl=info msg="Starting pprof server" addr=http://127.0.0.1:6060/debug/pprof
+t=2019-05-15T10:03:44+0800 lvl=info msg="Maximum peer count" ETH=25 total=25
+t=2019-05-15T10:03:44+0800 lvl=info msg="load genesis alloc file success" fileName=genesis_alloc.json
+t=2019-05-15T10:03:44+0800 lvl=info msg="Unlocked the account of" address=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:44+0800 lvl=info msg="Allocated cache and file handles" database=/Users/panyeda/go/src/fractal-scripts/docker/data/chaindata cache=768 handles=1024
+t=2019-05-15T10:03:44+0800 lvl=info msg="Persisted trie from memory database" nodes=690 size="107.63 kB" time=2.843719ms gcnodes=0 gcsize="0.00 B" gctime=0s livenodes=1 livesize="0.00 B"
+t=2019-05-15T10:03:44+0800 lvl=info msg=WriteBlockStateCheck hash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a flag=true
+t=2019-05-15T10:03:44+0800 lvl=info msg="Initialised chain configuration" config="&{ChainID:111 Greedy:4 TxExecutorType:simple TxSignerType:fake BlockSigFake:false MaxNonceBitLength:1024000}"
+t=2019-05-15T10:03:44+0800 lvl=info msg="NewExecutor: Init SimpleExecutor"
+t=2019-05-15T10:03:44+0800 lvl=info msg="Genesis Block" hash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a
+t=2019-05-15T10:03:44+0800 lvl=info msg="Init fake pool"
+t=2019-05-15T10:03:44+0800 lvl=info msg="Starting peer-to-peer node" instance=gftl/packer/v0.1.0-stable/darwin-amd64/go1.12
+t=2019-05-15T10:03:44+0800 lvl=info msg="Initialising Fractal protocol" versions=[1] network=1
+t=2019-05-15T10:03:44+0800 lvl=info msg="Init fake pool"
+t=2019-05-15T10:03:44+0800 lvl=info msg="NewExecutor: Init SimpleExecutor"
+t=2019-05-15T10:03:44+0800 lvl=info msg="Coinbase automatically configured" address=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:44+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=1
+t=2019-05-15T10:03:44+0800 lvl=info msg="Starting P2P networking"
+t=2019-05-15T10:03:44+0800 lvl=info msg="UDP listener up" self=enode://ac5675c3ffd17ecfed81895d3daabba10438fa2b67fad3bb1134d7d505a469d3b20fc14b3e67edc4f0cb67a07f89bbf16960ebc6d6999c889ee0061a05fb8bd7@[::]:40505
+t=2019-05-15T10:03:44+0800 lvl=info msg="RLPx listener up" self=enode://ac5675c3ffd17ecfed81895d3daabba10438fa2b67fad3bb1134d7d505a469d3b20fc14b3e67edc4f0cb67a07f89bbf16960ebc6d6999c889ee0061a05fb8bd7@[::]:40505
+t=2019-05-15T10:03:44+0800 lvl=info msg="Starting ProtocolManager"
+t=2019-05-15T10:03:44+0800 lvl=info msg="RPC endpoint opened" endpoint=//127.0.0.1:8545
+t=2019-05-15T10:03:45+0800 lvl=info msg="Fractal round found and reported" round=1557885825 hash=0xd0ec3b72248d6a5a5adfa4b72c9f62b7bcf4b29813b6077c3884614ffc3cfb24 height=1 parentHash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a
+t=2019-05-15T10:03:45+0800 lvl=info msg=ReadBlockStateCheck hash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a result=true
+t=2019-05-15T10:03:45+0800 lvl=info msg="GetBlockBeforeCacheHeight miss block" block hash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a height=0 ParentFullHash=0x0000000000000000000000000000000000000000000000000000000000000000
+t=2019-05-15T10:03:45+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500000000000000
+t=2019-05-15T10:03:45+0800 lvl=info msg="packed transaction finish" num=0 duration=1.028ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:45+0800 lvl=info msg="Insert block OK" height=1 round=1557885825 hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 duration=1.165ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885825062
+t=2019-05-15T10:03:45+0800 lvl=info msg=WriteBlockStateCheck hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 flag=true
+t=2019-05-15T10:03:45+0800 lvl=info msg="Insert block state OK" height=1 round=1557885825 state=0x3443de8f06d460014bbce24442412450cfcbe2aaec1ec54f12fe5a64ee8df139 hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 duration=1.349ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885825062
+t=2019-05-15T10:03:45+0800 lvl=info msg="Switch head block" old=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a new=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974
+t=2019-05-15T10:03:45+0800 lvl=info msg="Mined Block" height=1 hash =0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 simpleHash=0xd0ec3b72248d6a5a5adfa4b72c9f62b7bcf4b29813b6077c3884614ffc3cfb24 round=1557885825
+t=2019-05-15T10:03:45+0800 lvl=info msg="Propagated block" hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 recipients=0 duration=1.461ms
+t=2019-05-15T10:03:45+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=2
+t=2019-05-15T10:03:46+0800 lvl=info msg="Fractal round found and reported" round=1557885826 hash=0x05149730d406b399ef12db4669cfe7e11be399f1716d32edb971e292f6ce775a height=2 parentHash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974
+t=2019-05-15T10:03:48+0800 lvl=info msg="Get blocks from round1 to round2" round1=1539256736 round2=1557885825 numbers=1 duration=2.069s
+t=2019-05-15T10:03:48+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500005000000000
+t=2019-05-15T10:03:48+0800 lvl=info msg="packed transaction finish" num=0 duration=2.070s firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:48+0800 lvl=info msg="Insert block OK" height=2 round=1557885826 hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 duration=2.071s elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885826095
+t=2019-05-15T10:03:48+0800 lvl=info msg=WriteBlockStateCheck hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 flag=true
+t=2019-05-15T10:03:48+0800 lvl=info msg="Insert block state OK" height=2 round=1557885826 state=0x6b8ffcf945234aad2a80a1171214ec4e789d968ad8bdc335e51bf54e3b0de6c6 hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 duration=2.071s elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885826095
+t=2019-05-15T10:03:48+0800 lvl=info msg="Switch head block" old=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 new=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5
+t=2019-05-15T10:03:48+0800 lvl=info msg="Mined Block" height=2 hash =0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 simpleHash=0x05149730d406b399ef12db4669cfe7e11be399f1716d32edb971e292f6ce775a round=1557885826
+t=2019-05-15T10:03:48+0800 lvl=info msg="Propagated block" hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 recipients=0 duration=2.071s
+t=2019-05-15T10:03:48+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=3
+t=2019-05-15T10:03:48+0800 lvl=info msg="Generate a new tx package" tx count=200
+t=2019-05-15T10:03:48+0800 lvl=info msg="Propagated tx package" hash=0x98fcc6f4553eb9a1759c31ebeb06d4d732e58a423b14e4e907dab140d1f328de recipients=0 duration=2562047h47m16.854s
+t=2019-05-15T10:03:49+0800 lvl=info msg="Fractal round found and reported" round=1557885829 hash=0xd08585322e611208f35ddf83f6dba3f5b92e6f40ebf629c91979525a5f709239 height=3 parentHash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5
+t=2019-05-15T10:03:49+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885825 round2=1557885826 numbers=1 duration=130.415µs
+t=2019-05-15T10:03:49+0800 lvl=info msg="flattenPackages: nonceSet info" start=0 bitMask=0x length=0
+t=2019-05-15T10:03:49+0800 lvl=info msg="flattenPackages: pkg packed" num=1
+t=2019-05-15T10:03:49+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=0
+t=2019-05-15T10:03:49+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=0 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:49+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500010000000000
+t=2019-05-15T10:03:49+0800 lvl=info msg="packed transaction finish" num=0 duration=2.391ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:49+0800 lvl=info msg="Insert block OK" height=3 round=1557885829 hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 duration=2.575ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885829092
+t=2019-05-15T10:03:49+0800 lvl=info msg=WriteBlockStateCheck hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 flag=true
+t=2019-05-15T10:03:49+0800 lvl=info msg="Insert block state OK" height=3 round=1557885829 state=0x453f24fe781595c739a4fae264d39fe92d535859b3085337f250121efda9902a hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 duration=2.722ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885829092
+t=2019-05-15T10:03:49+0800 lvl=info msg="Switch head block" old=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 new=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219
+t=2019-05-15T10:03:49+0800 lvl=info msg="Mined Block" height=3 hash =0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 simpleHash=0xd08585322e611208f35ddf83f6dba3f5b92e6f40ebf629c91979525a5f709239 round=1557885829
+t=2019-05-15T10:03:49+0800 lvl=info msg="Propagated block" hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 recipients=0 duration=2.789ms
+t=2019-05-15T10:03:49+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=4
+t=2019-05-15T10:03:50+0800 lvl=info msg="Fractal round found and reported" round=1557885830 hash=0x1801130f04d9426761391582686c7e11dc22d15523dde0488b50cfa2ecf50fdc height=4 parentHash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219
+t=2019-05-15T10:03:50+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885826 round2=1557885829 numbers=1 duration=138.084µs
+t=2019-05-15T10:03:50+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500015000000000
+t=2019-05-15T10:03:50+0800 lvl=info msg="packed transaction finish" num=0 duration=1.346ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:50+0800 lvl=info msg="Insert block OK" height=4 round=1557885830 hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 duration=1.486ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885830020
+t=2019-05-15T10:03:50+0800 lvl=info msg=WriteBlockStateCheck hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 flag=true
+t=2019-05-15T10:03:50+0800 lvl=info msg="Insert block state OK" height=4 round=1557885830 state=0x901b3a676b6e6af128d8ca4bf6cfe8627765af16d101c8cfb54169468f7ff0a5 hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 duration=1.644ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885830020
+t=2019-05-15T10:03:50+0800 lvl=info msg="Switch head block" old=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 new=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98
+t=2019-05-15T10:03:50+0800 lvl=info msg="Mined Block" height=4 hash =0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 simpleHash=0x1801130f04d9426761391582686c7e11dc22d15523dde0488b50cfa2ecf50fdc round=1557885830
+t=2019-05-15T10:03:50+0800 lvl=info msg="Propagated block" hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 recipients=0 duration=1.713ms
+t=2019-05-15T10:03:50+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:03:50+0800 lvl=info msg="Generate a new tx package" tx count=200
+t=2019-05-15T10:03:50+0800 lvl=info msg="Propagated tx package" hash=0x60194e497728acc2c5822028c9415df37ea736923c8058c06ff2922fa6fa1ace recipients=0 duration=2562047h47m16.854s
+t=2019-05-15T10:03:51+0800 lvl=info msg="Fractal round found and reported" round=1557885831 hash=0x0947084d6eeda780bc8480ad52259728a40eb1c5e658e11dfaaad11bcca0abb0 height=5 parentHash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98
+t=2019-05-15T10:03:51+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885829 round2=1557885830 numbers=1 duration=138.69µs
+t=2019-05-15T10:03:51+0800 lvl=info msg="flattenPackages: nonceSet info" start=0 bitMask=0x80 length=1
+t=2019-05-15T10:03:51+0800 lvl=info msg="flattenPackages: pkg packed" num=1
+t=2019-05-15T10:03:51+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=1
+t=2019-05-15T10:03:51+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=1 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:51+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500020000000000
+t=2019-05-15T10:03:51+0800 lvl=info msg="packed transaction finish" num=0 duration=2.582ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:51+0800 lvl=info msg="Insert block OK" height=5 round=1557885831 hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 duration=2.705ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885831043
+t=2019-05-15T10:03:51+0800 lvl=info msg=WriteBlockStateCheck hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 flag=true
+t=2019-05-15T10:03:51+0800 lvl=info msg="Insert block state OK" height=5 round=1557885831 state=0x488e08bcf901abcf65bb684ccd37e057b7bed355c4a9fb597f12842e3abee4ad hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 duration=2.839ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885831043
+t=2019-05-15T10:03:51+0800 lvl=info msg="Switch head block" old=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 new=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660
+t=2019-05-15T10:03:51+0800 lvl=info msg="Mined Block" height=5 hash =0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 simpleHash=0x0947084d6eeda780bc8480ad52259728a40eb1c5e658e11dfaaad11bcca0abb0 round=1557885831
+t=2019-05-15T10:03:51+0800 lvl=info msg="Propagated block" hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 recipients=0 duration=2.912ms
+t=2019-05-15T10:03:51+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:03:51+0800 lvl=info msg="Adding p2p peer" name=gftl/node/v0.1.0-sta... addr=127.0.0.1:61312 peers=1
+t=2019-05-15T10:03:51+0800 lvl=info msg="Fractal peer connected" id=339982b82298a2c3434be87ed3b5ddfcca1856f3da3862676c2c4286d34c286947e86c9728986336eb056a913882b4439ddd68c04dbca0dab6395351e391e8b3 conn=inbound name=339982b82298a2c3
+t=2019-05-15T10:03:51+0800 lvl=info msg="recv new peer event" peers.Len()=1 peer=339982b82298a2c3
+t=2019-05-15T10:03:51+0800 lvl=info msg="sync recv new peer event"
+t=2019-05-15T10:03:51+0800 lvl=info msg="New peer recv and init"
+t=2019-05-15T10:03:52+0800 lvl=info msg="Fractal round found and reported" round=1557885832 hash=0xb4b1f313374b6114e5b3de572e9f90db02c8028f997feff405989199ba85c037 height=6 parentHash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660
+t=2019-05-15T10:03:52+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885830 round2=1557885831 numbers=1 duration=98.171µs
+t=2019-05-15T10:03:52+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500025000000000
+t=2019-05-15T10:03:52+0800 lvl=info msg="packed transaction finish" num=0 duration=976.641µs firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:52+0800 lvl=info msg="Insert block OK" height=6 round=1557885832 hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 duration=1.127ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885832087
+t=2019-05-15T10:03:52+0800 lvl=info msg=WriteBlockStateCheck hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 flag=true
+t=2019-05-15T10:03:52+0800 lvl=info msg="Insert block state OK" height=6 round=1557885832 state=0xdb13ce1bdb601a05c9c8c1690434183b5bf91fa14fbf3b36b67e4478a141acb8 hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 duration=1.320ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885832087
+t=2019-05-15T10:03:52+0800 lvl=info msg="Switch head block" old=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 new=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416
+t=2019-05-15T10:03:52+0800 lvl=info msg="Mined Block" height=6 hash =0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 simpleHash=0xb4b1f313374b6114e5b3de572e9f90db02c8028f997feff405989199ba85c037 round=1557885832
+t=2019-05-15T10:03:52+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:03:52+0800 lvl=info msg="Propagated block" hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 recipients=1 duration=1.441ms
+t=2019-05-15T10:03:52+0800 lvl=info msg="Generate a new tx package" tx count=200
+t=2019-05-15T10:03:52+0800 lvl=info msg="Propagated tx package" hash=0x84704d632502b27dc3f54c566ca812a05e226adaf77feae77af1331b4ae3a053 recipients=1 duration=2562047h47m16.854s
+t=2019-05-15T10:03:53+0800 lvl=info msg="Fractal round found and reported" round=1557885833 hash=0x3b67f78a7e832e6cdd883462cf19f6b3ff8ccde8ec93b6bbf1f18843c662ef13 height=7 parentHash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416
+t=2019-05-15T10:03:53+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885831 round2=1557885832 numbers=1 duration=132.362µs
+t=2019-05-15T10:03:53+0800 lvl=info msg="flattenPackages: nonceSet info" start=0 bitMask=0xc0 length=2
+t=2019-05-15T10:03:53+0800 lvl=info msg="flattenPackages: pkg packed" num=1
+t=2019-05-15T10:03:53+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=2
+t=2019-05-15T10:03:53+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=2 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:53+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500030000000000
+t=2019-05-15T10:03:53+0800 lvl=info msg="packed transaction finish" num=0 duration=2.288ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:53+0800 lvl=info msg="Insert block OK" height=7 round=1557885833 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 duration=2.400ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885833010
+t=2019-05-15T10:03:53+0800 lvl=info msg=WriteBlockStateCheck hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 flag=true
+t=2019-05-15T10:03:53+0800 lvl=info msg="Insert block state OK" height=7 round=1557885833 state=0x6075777fb8349a1ca2e7e5bc15f94b765473f236e83ae5b4451af6985d40e163 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 duration=2.522ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885833010
+t=2019-05-15T10:03:53+0800 lvl=info msg="Switch head block" old=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 new=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838
+t=2019-05-15T10:03:53+0800 lvl=info msg="Mined Block" height=7 hash =0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 simpleHash=0x3b67f78a7e832e6cdd883462cf19f6b3ff8ccde8ec93b6bbf1f18843c662ef13 round=1557885833
+t=2019-05-15T10:03:53+0800 lvl=info msg="Propagated block" hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 recipients=1 duration=2.591ms
+t=2019-05-15T10:03:53+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:03:54+0800 lvl=info msg="Fractal round found and reported" round=1557885834 hash=0x2d6ba6d08413cf1ca9e65a6f6e630cf6f79671cc0622488864019eaea2af8f8e height=8 parentHash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838
+t=2019-05-15T10:03:54+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885832 round2=1557885833 numbers=1 duration=104.428µs
+t=2019-05-15T10:03:54+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500035000000000
+t=2019-05-15T10:03:54+0800 lvl=info msg="packed transaction finish" num=0 duration=950.41µs firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:54+0800 lvl=info msg="Insert block OK" height=8 round=1557885834 hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a duration=1.071ms elapse=0 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885834033
+t=2019-05-15T10:03:54+0800 lvl=info msg=WriteBlockStateCheck hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a flag=true
+t=2019-05-15T10:03:54+0800 lvl=info msg="Insert block state OK" height=8 round=1557885834 state=0xd9f262b5d57352cd2f6c86d1f0a27d0f3bbb7f0e9af3cdc69dec4b87a0799927 hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a duration=1.217ms elapse=0 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885834033
+t=2019-05-15T10:03:54+0800 lvl=info msg="Switch head block" old=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 new=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a
+t=2019-05-15T10:03:54+0800 lvl=info msg="Mined Block" height=8 hash =0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a simpleHash=0x2d6ba6d08413cf1ca9e65a6f6e630cf6f79671cc0622488864019eaea2af8f8e round=1557885834
+t=2019-05-15T10:03:54+0800 lvl=info msg="Propagated block" hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a recipients=1 duration=1.291ms
+t=2019-05-15T10:03:54+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:03:54+0800 lvl=info msg="Generate a new tx package" tx count=200
+t=2019-05-15T10:03:54+0800 lvl=info msg="Propagated tx package" hash=0x4afa573652133c8acfd92417c2e8f58db951ba14d61314a841e5ffbdee6b978a recipients=1 duration=2562047h47m16.854s
+t=2019-05-15T10:03:55+0800 lvl=info msg="Fractal round found and reported" round=1557885835 hash=0x4e79a475fa572cbdf63e8a0bee48f5351636a5e59c9670eb71179ea6b324eca8 height=9 parentHash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a
+t=2019-05-15T10:03:55+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885833 round2=1557885834 numbers=1 duration=165.766µs
+t=2019-05-15T10:03:55+0800 lvl=info msg="flattenPackages: nonceSet info" start=1 bitMask=0xc0 length=2
+t=2019-05-15T10:03:55+0800 lvl=info msg="flattenPackages: pkg packed" num=1
+t=2019-05-15T10:03:55+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=3
+t=2019-05-15T10:03:55+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=3 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:55+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500040000000000
+t=2019-05-15T10:03:55+0800 lvl=info msg="packed transaction finish" num=0 duration=2.352ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:55+0800 lvl=info msg="Insert block OK" height=9 round=1557885835 hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 duration=2.473ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885835044
+t=2019-05-15T10:03:55+0800 lvl=info msg=WriteBlockStateCheck hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 flag=true
+t=2019-05-15T10:03:55+0800 lvl=info msg="Insert block state OK" height=9 round=1557885835 state=0xc89e7a2890e39b966de6bee9d3dbf5bb79828b41e87c20ca3b5b1bb5dd74fd6a hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 duration=2.635ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885835044
+t=2019-05-15T10:03:55+0800 lvl=info msg="Switch head block" old=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a new=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344
+t=2019-05-15T10:03:55+0800 lvl=info msg="Mined Block" height=9 hash =0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 simpleHash=0x4e79a475fa572cbdf63e8a0bee48f5351636a5e59c9670eb71179ea6b324eca8 round=1557885835
+t=2019-05-15T10:03:55+0800 lvl=info msg="Propagated block" hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 recipients=1 duration=2.706ms
+t=2019-05-15T10:03:55+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:03:56+0800 lvl=info msg="Fractal round found and reported" round=1557885836 hash=0xef5f17998db23a48659ec43071757dcddf5c71e875a3a13775fbd021deb31c59 height=10 parentHash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344
+t=2019-05-15T10:03:56+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885834 round2=1557885835 numbers=1 duration=90.486µs
+t=2019-05-15T10:03:56+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500045000000000
+t=2019-05-15T10:03:56+0800 lvl=info msg="packed transaction finish" num=0 duration=1.026ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:56+0800 lvl=info msg="Insert block OK" height=10 round=1557885836 hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 duration=1.240ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885836072
+t=2019-05-15T10:03:56+0800 lvl=info msg=WriteBlockStateCheck hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 flag=true
+t=2019-05-15T10:03:56+0800 lvl=info msg="Insert block state OK" height=10 round=1557885836 state=0xa47f418f0a9b90ae1849814b7a3b296afdfc3cacd8df0caa5254e2e4d9dd984f hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 duration=1.426ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885836072
+t=2019-05-15T10:03:56+0800 lvl=info msg="Switch head block" old=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 new=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7
+t=2019-05-15T10:03:56+0800 lvl=info msg="Mined Block" height=10 hash =0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 simpleHash=0xef5f17998db23a48659ec43071757dcddf5c71e875a3a13775fbd021deb31c59 round=1557885836
+t=2019-05-15T10:03:56+0800 lvl=info msg="Propagated block" hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 recipients=1 duration=1.510ms
+t=2019-05-15T10:03:56+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:03:56+0800 lvl=info msg="Generate a new tx package" tx count=200
+t=2019-05-15T10:03:56+0800 lvl=info msg="Propagated tx package" hash=0xdd73ac1771d021b74d2feb72eb2fbec66973ac7917438ef933f83d62fda2761e recipients=1 duration=2562047h47m16.854s
+t=2019-05-15T10:03:57+0800 lvl=info msg="Fractal round found and reported" round=1557885837 hash=0x940dddc046a6478b47a92edec31893fb0fc060ec453f55070cfa92d99c946cb7 height=11 parentHash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7
+t=2019-05-15T10:03:57+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885835 round2=1557885836 numbers=1 duration=119.029µs
+t=2019-05-15T10:03:57+0800 lvl=info msg="flattenPackages: nonceSet info" start=2 bitMask=0xc0 length=2
+t=2019-05-15T10:03:57+0800 lvl=info msg="flattenPackages: pkg packed" num=1
+t=2019-05-15T10:03:57+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=4
+t=2019-05-15T10:03:57+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=4 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:57+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500050000000000
+t=2019-05-15T10:03:57+0800 lvl=info msg="packed transaction finish" num=0 duration=2.386ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:57+0800 lvl=info msg="Insert block OK" height=11 round=1557885837 hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a duration=2.528ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885837095
+t=2019-05-15T10:03:57+0800 lvl=info msg=WriteBlockStateCheck hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a flag=true
+t=2019-05-15T10:03:57+0800 lvl=info msg="Insert block state OK" height=11 round=1557885837 state=0x3ef90c607d220d9a65dab0566c7f3544ce015ebb1edca181f8a439c670d50ece hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a duration=2.662ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885837095
+t=2019-05-15T10:03:57+0800 lvl=info msg="Switch head block" old=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 new=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a
+t=2019-05-15T10:03:57+0800 lvl=info msg="Mined Block" height=11 hash =0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a simpleHash=0x940dddc046a6478b47a92edec31893fb0fc060ec453f55070cfa92d99c946cb7 round=1557885837
+t=2019-05-15T10:03:57+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:03:57+0800 lvl=info msg="Propagated block" hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a recipients=1 duration=2.779ms
+t=2019-05-15T10:03:58+0800 lvl=info msg="Fractal round found and reported" round=1557885838 hash=0x2862a5053adb74be7516d62546874e54a8010acbd543bd4ffc27661ad275c543 height=12 parentHash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a
+t=2019-05-15T10:03:58+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885836 round2=1557885837 numbers=1 duration=108.493µs
+t=2019-05-15T10:03:58+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500055000000000
+t=2019-05-15T10:03:58+0800 lvl=info msg="packed transaction finish" num=0 duration=960.37µs firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:58+0800 lvl=info msg="Insert block OK" height=12 round=1557885838 hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc duration=1.125ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885838007
+t=2019-05-15T10:03:58+0800 lvl=info msg=WriteBlockStateCheck hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc flag=true
+t=2019-05-15T10:03:58+0800 lvl=info msg="Insert block state OK" height=12 round=1557885838 state=0x9bf26b1beb910e889032a8e8292e1217c6761a2d9e322ea6ec413e9f5f5e6470 hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc duration=1.313ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885838007
+t=2019-05-15T10:03:58+0800 lvl=info msg="Switch head block" old=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a new=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc
+t=2019-05-15T10:03:58+0800 lvl=info msg="Mined Block" height=12 hash =0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc simpleHash=0x2862a5053adb74be7516d62546874e54a8010acbd543bd4ffc27661ad275c543 round=1557885838
+t=2019-05-15T10:03:58+0800 lvl=info msg="Propagated block" hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc recipients=1 duration=1.410ms
+t=2019-05-15T10:03:58+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:03:58+0800 lvl=info msg="Generate a new tx package" tx count=200
+t=2019-05-15T10:03:58+0800 lvl=info msg="Propagated tx package" hash=0xb5ddc78899ac5b4941d4a9ef0d1a2945a442d12805a71ddecafabbbc604c657f recipients=1 duration=2562047h47m16.854s
+t=2019-05-15T10:03:58+0800 lvl=info msg="Adding p2p peer" name=gftl/node/v0.1.0-sta... addr=127.0.0.1:61379 peers=2
+t=2019-05-15T10:03:58+0800 lvl=info msg="Fractal peer connected" id=db8179bc3d1076f160b03b223e9d1bd72ffa67cd30d02bb3df0ccbdab247d48784e426d836f615b3e13fb30676c3bfc12f04f679ca5d19e3344afa000d0c46d5 conn=inbound name=db8179bc3d1076f1
+t=2019-05-15T10:03:58+0800 lvl=info msg="recv new peer event" peers.Len()=2 peer=db8179bc3d1076f1
+t=2019-05-15T10:03:58+0800 lvl=info msg="sync recv new peer event"
+t=2019-05-15T10:03:58+0800 lvl=info msg="New peer recv and init"
+t=2019-05-15T10:03:58+0800 lvl=info msg="sync do init " height diff =-12
+t=2019-05-15T10:03:59+0800 lvl=info msg="Fractal round found and reported" round=1557885839 hash=0x5eff78d3b4530162e5bd42100c83bf275251d1683bd5b73f269b14aa3b7a414e height=13 parentHash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc
+t=2019-05-15T10:03:59+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885837 round2=1557885838 numbers=1 duration=112.216µs
+t=2019-05-15T10:03:59+0800 lvl=info msg="flattenPackages: nonceSet info" start=3 bitMask=0xc0 length=2
+t=2019-05-15T10:03:59+0800 lvl=info msg="flattenPackages: pkg packed" num=1
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=5
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=5 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500060000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="packed transaction finish" num=0 duration=2.348ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=13 round=1557885839 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 duration=2.475ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885839023
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=13 round=1557885839 state=0x951cefac064efcaadb169da769481aa23473ee0d177e613933bf2f21ccf827b7 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 duration=2.599ms elapse=1 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885839023
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc new=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417
+t=2019-05-15T10:03:59+0800 lvl=info msg="Mined Block" height=13 hash =0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 simpleHash=0x5eff78d3b4530162e5bd42100c83bf275251d1683bd5b73f269b14aa3b7a414e round=1557885839
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 recipients=2 duration=2.673ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:04:00+0800 lvl=info msg="Fractal round found and reported" round=1557885840 hash=0xd4be0178435f0dd954f6d6b63898beddb9c4577089d8a2fc4dccc932382dc59c height=14 parentHash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417
+t=2019-05-15T10:04:00+0800 lvl=info msg="Get blocks from round1 to round2" round1=1557885838 round2=1557885839 numbers=1 duration=138.853µs
+t=2019-05-15T10:04:00+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500065000000000
+t=2019-05-15T10:04:00+0800 lvl=info msg="packed transaction finish" num=0 duration=1.080ms firstNonce=0 lastNonce=0
+t=2019-05-15T10:04:00+0800 lvl=info msg="Insert block OK" height=14 round=1557885840 hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 duration=1.185ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885840043
+t=2019-05-15T10:04:00+0800 lvl=info msg=WriteBlockStateCheck hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 flag=true
+t=2019-05-15T10:04:00+0800 lvl=info msg="Insert block state OK" height=14 round=1557885840 state=0xb41fcc46b2ed900ebddfefa3880d771a6bfcec47f296b9b72d0b71e2071d4eaf hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 duration=1.315ms elapse=1 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885840043
+t=2019-05-15T10:04:00+0800 lvl=info msg="Switch head block" old=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 new=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573
+t=2019-05-15T10:04:00+0800 lvl=info msg="Mined Block" height=14 hash =0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 simpleHash=0xd4be0178435f0dd954f6d6b63898beddb9c4577089d8a2fc4dccc932382dc59c round=1557885840
+t=2019-05-15T10:04:00+0800 lvl=info msg="Propagated block" hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 recipients=2 duration=1.395ms
+t=2019-05-15T10:04:00+0800 lvl=info msg="Commit new mining work" greedy=4 parentBlockSize=5
+t=2019-05-15T10:04:00+0800 lvl=info msg="Generate a new tx package" tx count=200
+t=2019-05-15T10:04:00+0800 lvl=info msg="Propagated tx package" hash=0x9086dd3925346e294df908b502b3fe880e308a4d9c4a667a0304dee89405db95 recipients=2 duration=2562047h47m16.854s

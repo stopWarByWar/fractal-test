@@ -1,0 +1,360 @@
+t=2019-05-15T10:03:55+0800 lvl=info msg="Starting pprof server" addr=http://127.0.0.1:7060/debug/pprof
+t=2019-05-15T10:03:55+0800 lvl=info msg="Maximum peer count" ETH=25 total=25
+t=2019-05-15T10:03:55+0800 lvl=info msg="load genesis alloc file success" fileName=genesis_alloc.json
+t=2019-05-15T10:03:55+0800 lvl=info msg="Allocated cache and file handles" database=/Users/panyeda/go/src/fractal-scripts/docker/data1/chaindata cache=768 handles=1024
+t=2019-05-15T10:03:55+0800 lvl=info msg="Persisted trie from memory database" nodes=690 size="107.63 kB" time=3.469454ms gcnodes=0 gcsize="0.00 B" gctime=0s livenodes=1 livesize="0.00 B"
+t=2019-05-15T10:03:55+0800 lvl=info msg=WriteBlockStateCheck hash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a flag=true
+t=2019-05-15T10:03:55+0800 lvl=info msg="Initialised chain configuration" config="&{ChainID:111 Greedy:4 TxExecutorType:simple TxSignerType:fake BlockSigFake:false MaxNonceBitLength:1024000}"
+t=2019-05-15T10:03:55+0800 lvl=info msg="NewExecutor: Init SimpleExecutor"
+t=2019-05-15T10:03:55+0800 lvl=info msg="Genesis Block" hash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a
+t=2019-05-15T10:03:55+0800 lvl=info msg="Init fake pool"
+t=2019-05-15T10:03:55+0800 lvl=info msg="Starting peer-to-peer node" instance=gftl/node/v0.1.0-stable/darwin-amd64/go1.12
+t=2019-05-15T10:03:55+0800 lvl=info msg="Initialising Fractal protocol" versions=[1] network=1
+t=2019-05-15T10:03:55+0800 lvl=info msg="Init fake pool"
+t=2019-05-15T10:03:55+0800 lvl=info msg="Starting P2P networking"
+t=2019-05-15T10:03:57+0800 lvl=info msg="Mapped network port" proto=udp extport=40304 intport=40304 interface="UPNP IGDv1-IP1"
+t=2019-05-15T10:03:57+0800 lvl=info msg="UDP listener up" self=enode://db8179bc3d1076f160b03b223e9d1bd72ffa67cd30d02bb3df0ccbdab247d48784e426d836f615b3e13fb30676c3bfc12f04f679ca5d19e3344afa000d0c46d5@210.22.171.162:40304
+t=2019-05-15T10:03:57+0800 lvl=info msg="RLPx listener up" self=enode://db8179bc3d1076f160b03b223e9d1bd72ffa67cd30d02bb3df0ccbdab247d48784e426d836f615b3e13fb30676c3bfc12f04f679ca5d19e3344afa000d0c46d5@210.22.171.162:40304
+t=2019-05-15T10:03:57+0800 lvl=info msg="Starting ProtocolManager"
+t=2019-05-15T10:03:57+0800 lvl=info msg="RPC endpoint opened" endpoint=//127.0.0.1:8645
+t=2019-05-15T10:03:57+0800 lvl=info msg="Mapped network port" proto=tcp extport=40304 intport=40304 interface="UPNP IGDv1-IP1"
+t=2019-05-15T10:03:58+0800 lvl=info msg="Adding p2p peer" name=gftl/node/v0.1.0-sta... addr=127.0.0.1:40314 peers=1
+t=2019-05-15T10:03:58+0800 lvl=info msg="Fractal peer connected" id=339982b82298a2c3434be87ed3b5ddfcca1856f3da3862676c2c4286d34c286947e86c9728986336eb056a913882b4439ddd68c04dbca0dab6395351e391e8b3 conn=dyndial name=339982b82298a2c3
+t=2019-05-15T10:03:58+0800 lvl=info msg="Adding p2p peer" name=gftl/packer/v0.1.0-s... addr=127.0.0.1:40505 peers=2
+t=2019-05-15T10:03:58+0800 lvl=info msg="Fractal peer connected" id=ac5675c3ffd17ecfed81895d3daabba10438fa2b67fad3bb1134d7d505a469d3b20fc14b3e67edc4f0cb67a07f89bbf16960ebc6d6999c889ee0061a05fb8bd7 conn=dyndial name=ac5675c3ffd17ecf
+t=2019-05-15T10:03:58+0800 lvl=info msg="recv new peer event" peers.Len()=1 peer=339982b82298a2c3
+t=2019-05-15T10:03:58+0800 lvl=info msg="sync recv new peer event"
+t=2019-05-15T10:03:58+0800 lvl=info msg="New peer recv and init"
+t=2019-05-15T10:03:58+0800 lvl=info msg="recv new peer event" peers.Len()=2 peer=ac5675c3ffd17ecf
+t=2019-05-15T10:03:58+0800 lvl=info msg="sync recv new peer event"
+t=2019-05-15T10:03:58+0800 lvl=info msg="New peer recv and init"
+t=2019-05-15T10:03:58+0800 lvl=info msg="sync do init " height diff =12
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=13 round=1557885839 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 parent=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 height=13 duration=177.771µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=13 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 err="Can't find parent block" miss=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=12 round=1557885838 hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc parent=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc height=12 duration=132.858µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=12 hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc err="Can't find parent block" miss=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=11 round=1557885837 hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a parent=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a height=11 duration=112.045µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=11 hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a err="Can't find parent block" miss=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=10 round=1557885836 hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 parent=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 height=10 duration=132.828µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=10 hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 err="Can't find parent block" miss=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=9 round=1557885835 hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 parent=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 height=9 duration=92.421µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=9 hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 err="Can't find parent block" miss=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=8 round=1557885834 hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a parent=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a height=8 duration=179.508µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=8 hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a err="Can't find parent block" miss=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=7 round=1557885833 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 parent=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 height=7 duration=160.524µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=7 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 err="Can't find parent block" miss=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=6 round=1557885832 hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 parent=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 height=6 duration=128.852µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=6 hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 err="Can't find parent block" miss=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=5 round=1557885831 hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 parent=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 height=5 duration=113.069µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=5 hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 err="Can't find parent block" miss=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=4 round=1557885830 hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 parent=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 height=4 duration=174.652µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=4 hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 err="Can't find parent block" miss=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=3 round=1557885829 hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 parent=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 height=3 duration=124.452µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=3 hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 err="Can't find parent block" miss=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=2 round=1557885826 hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 parent=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 height=2 duration=124.596µs
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=2 hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 err="Can't find parent block" miss=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=1 round=1557885825 hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 parent=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 height=1 duration=137.178µs
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a height=0 hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 block height=1
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 height=1 duration=4.919ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 recipients=1 duration=5.007ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=1 round=1557885825 hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 duration=5.133ms elapse=13970 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885825062
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=1 full hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 parent=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a duration=5.249ms pkgNum=0 height=1
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockBeforeCacheHeight miss block" block hash=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a height=0 ParentFullHash=0x0000000000000000000000000000000000000000000000000000000000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500000000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 state=0x3443de8f06d460014bbce24442412450cfcbe2aaec1ec54f12fe5a64ee8df139 duration=5.407ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=1 round=1557885825 state=0x3443de8f06d460014bbce24442412450cfcbe2aaec1ec54f12fe5a64ee8df139 hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 duration=5.589ms elapse=13970 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885825062
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0xa345985077674f522107e888fbb8ef2b03efc30b8ef0b2b2c3f8a08af25e833a new=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 height=2
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 height=1
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=2 round=1557885826 hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 parent=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 height=2 duration=6.219ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 height=1 hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 block height=2
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 height=2 duration=10.656ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 recipients=1 duration=10.750ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=2 round=1557885826 hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 duration=10.881ms elapse=12937 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885826095
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=2 full hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 parent=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 duration=10.993ms pkgNum=0 height=2
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500005000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 state=0x6b8ffcf945234aad2a80a1171214ec4e789d968ad8bdc335e51bf54e3b0de6c6 duration=11.083ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=2 round=1557885826 state=0x6b8ffcf945234aad2a80a1171214ec4e789d968ad8bdc335e51bf54e3b0de6c6 hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 duration=11.243ms elapse=12937 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885826095
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0x54aef4fdb6fe087cb5809a5d13f8d2dfb1886350d2691d8ac3f21d55ddb8e974 new=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 height=3
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 height=2
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=3 round=1557885829 hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 parent=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 height=3 duration=11.802ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 height=2 hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 block height=3
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=3 hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 err="Block txPackage missing" miss=0x98fcc6f4553eb9a1759c31ebeb06d4d732e58a423b14e4e907dab140d1f328de
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated tx package" peer=ac5675c3ffd17ecf packer=0x4618cd0 nonce=0 hash=0x98fcc6f4553eb9a1759c31ebeb06d4d732e58a423b14e4e907dab140d1f328de
+t=2019-05-15T10:03:59+0800 lvl=info msg="Announced tx package" hash=0x98fcc6f4553eb9a1759c31ebeb06d4d732e58a423b14e4e907dab140d1f328de recipients=1 duration=2.124ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Try to insert future txPackage block" txPkgHash=0x98fcc6f4553eb9a1759c31ebeb06d4d732e58a423b14e4e907dab140d1f328de blockHash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=3 round=1557885829 hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 parent=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 height=3 duration=19.345ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 height=2 hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 block height=3
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 height=3 duration=23.859ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 recipients=1 duration=23.942ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=3 round=1557885829 hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 duration=23.989ms elapse=9939 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885829092
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=3 full hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 parent=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 duration=24.105ms pkgNum=1 height=3
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=0
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=0 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500010000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 state=0x453f24fe781595c739a4fae264d39fe92d535859b3085337f250121efda9902a duration=26.211ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=3 round=1557885829 state=0x453f24fe781595c739a4fae264d39fe92d535859b3085337f250121efda9902a hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 duration=26.351ms elapse=9939 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885829092
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0x8b1d7e45f547b50085c81848d1a536f97627a1c3bea350876c5812c842b713c5 new=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 height=4
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 height=3
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=4 round=1557885830 hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 parent=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 height=4 duration=26.990ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 height=3 hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 block height=4
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 height=4 duration=31.459ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 recipients=1 duration=31.535ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=4 round=1557885830 hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 duration=31.607ms elapse=9011 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885830020
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=4 full hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 parent=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 duration=31.694ms pkgNum=0 height=4
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500015000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 state=0x901b3a676b6e6af128d8ca4bf6cfe8627765af16d101c8cfb54169468f7ff0a5 duration=31.793ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=4 round=1557885830 state=0x901b3a676b6e6af128d8ca4bf6cfe8627765af16d101c8cfb54169468f7ff0a5 hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 duration=31.926ms elapse=9011 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885830020
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0xe4473b102eb378f0d70970f544099bc71607e54c403fe8429190181199288219 new=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 height=5
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 height=4
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=5 round=1557885831 hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 parent=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 height=5 duration=32.485ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 height=4 hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 block height=5
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=5 hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 err="Block txPackage missing" miss=0x60194e497728acc2c5822028c9415df37ea736923c8058c06ff2922fa6fa1ace
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated tx package" peer=ac5675c3ffd17ecf packer=0x4618cd0 nonce=1 hash=0x60194e497728acc2c5822028c9415df37ea736923c8058c06ff2922fa6fa1ace
+t=2019-05-15T10:03:59+0800 lvl=info msg="Announced tx package" hash=0x60194e497728acc2c5822028c9415df37ea736923c8058c06ff2922fa6fa1ace recipients=1 duration=2.085ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Try to insert future txPackage block" txPkgHash=0x60194e497728acc2c5822028c9415df37ea736923c8058c06ff2922fa6fa1ace blockHash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=5 round=1557885831 hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 parent=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 height=5 duration=39.867ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 height=4 hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 block height=5
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 height=5 duration=44.406ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 recipients=1 duration=44.484ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=5 round=1557885831 hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 duration=44.564ms elapse=7988 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885831043
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=5 full hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 parent=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 duration=44.640ms pkgNum=1 height=5
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=1
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=1 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500020000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 state=0x488e08bcf901abcf65bb684ccd37e057b7bed355c4a9fb597f12842e3abee4ad duration=46.737ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=5 round=1557885831 state=0x488e08bcf901abcf65bb684ccd37e057b7bed355c4a9fb597f12842e3abee4ad hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 duration=46.876ms elapse=7988 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885831043
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0x3dfb63fa1c0ff7f27064066d9e360bc6c8d2a9721678014d8dc2a99b117e7f98 new=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 height=6
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 height=5
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=6 round=1557885832 hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 parent=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 height=6 duration=47.467ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 height=5 hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 block height=6
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 height=6 duration=51.964ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 recipients=1 duration=52.042ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=6 round=1557885832 hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 duration=52.111ms elapse=6943 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885832087
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=6 full hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 parent=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 duration=52.191ms pkgNum=0 height=6
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500025000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 state=0xdb13ce1bdb601a05c9c8c1690434183b5bf91fa14fbf3b36b67e4478a141acb8 duration=52.317ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=6 round=1557885832 state=0xdb13ce1bdb601a05c9c8c1690434183b5bf91fa14fbf3b36b67e4478a141acb8 hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 duration=52.448ms elapse=6943 hop=0 txCount=0 pkgCount=0 blockMinedTime=1557885832087
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0x7daeff3cf20434d336086beab23f29e72f1c9c0976e2ce7c8eb5b68b2da10660 new=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 height=7
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 height=6
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=7 round=1557885833 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 parent=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 height=7 duration=53.084ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 height=6 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 block height=7
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=ac5675c3ffd17ecf height=7 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 err="Block txPackage missing" miss=0x84704d632502b27dc3f54c566ca812a05e226adaf77feae77af1331b4ae3a053
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=339982b82298a2c3 height=7 round=1557885833 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 parent=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 height=7 duration=278.721µs
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 height=6 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 block height=7
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated tx package" peer=ac5675c3ffd17ecf packer=0x4618cd0 nonce=2 hash=0x84704d632502b27dc3f54c566ca812a05e226adaf77feae77af1331b4ae3a053
+t=2019-05-15T10:03:59+0800 lvl=info msg="Announced tx package" hash=0x84704d632502b27dc3f54c566ca812a05e226adaf77feae77af1331b4ae3a053 recipients=1 duration=1.848ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 height=7 duration=4.910ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 recipients=0 duration=5.001ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=7 round=1557885833 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 duration=5.054ms elapse=6077 hop=1 txCount=0 pkgCount=1 blockMinedTime=1557885833010
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=7 full hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 parent=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 duration=5.118ms pkgNum=1 height=7
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=2
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=2 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500030000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 state=0x6075777fb8349a1ca2e7e5bc15f94b765473f236e83ae5b4451af6985d40e163 duration=7.106ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=7 round=1557885833 state=0x6075777fb8349a1ca2e7e5bc15f94b765473f236e83ae5b4451af6985d40e163 hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 duration=7.297ms elapse=6077 hop=1 txCount=0 pkgCount=1 blockMinedTime=1557885833010
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0x9e1351bd3f1825fe14cf92e14d2dddec4c2fa8b071851e91c47c186db143d416 new=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838
+t=2019-05-15T10:03:59+0800 lvl=info msg="Try to insert future txPackage block" txPkgHash=0x84704d632502b27dc3f54c566ca812a05e226adaf77feae77af1331b4ae3a053 blockHash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a height=8
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=339982b82298a2c3 height=8 round=1557885834 hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a parent=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a height=8 duration=225.21µs
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 height=7 hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a block height=8
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a height=8 duration=4.664ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a recipients=0 duration=4.753ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=8 round=1557885834 hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a duration=4.818ms elapse=5061 hop=1 txCount=0 pkgCount=0 blockMinedTime=1557885834033
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=8 full hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a parent=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 duration=4.897ms pkgNum=0 height=8
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500035000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a state=0xd9f262b5d57352cd2f6c86d1f0a27d0f3bbb7f0e9af3cdc69dec4b87a0799927 duration=5.025ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=8 round=1557885834 state=0xd9f262b5d57352cd2f6c86d1f0a27d0f3bbb7f0e9af3cdc69dec4b87a0799927 hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a duration=5.166ms elapse=5061 hop=1 txCount=0 pkgCount=0 blockMinedTime=1557885834033
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 new=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 height=9
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0xdd8b4a70b115fa7c1c7ddb9761505100a25ca46473c75f5f089521214ccd4838 height=7
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a height=8
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=339982b82298a2c3 height=9 round=1557885835 hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 parent=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 height=9 duration=310.494µs
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a height=8 hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 block height=9
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=339982b82298a2c3 height=9 hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 err="Block txPackage missing" miss=0x4afa573652133c8acfd92417c2e8f58db951ba14d61314a841e5ffbdee6b978a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=9 round=1557885835 hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 parent=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 height=9 duration=75.468ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a height=8 hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 block height=9
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated tx package" peer=339982b82298a2c3 packer=0x4618cd0 nonce=3 hash=0x4afa573652133c8acfd92417c2e8f58db951ba14d61314a841e5ffbdee6b978a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Announced tx package" hash=0x4afa573652133c8acfd92417c2e8f58db951ba14d61314a841e5ffbdee6b978a recipients=1 duration=1.769ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 height=9 duration=80.164ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 recipients=0 duration=80.276ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=9 round=1557885835 hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 duration=80.349ms elapse=3985 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885835044
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=9 full hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 parent=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a duration=80.406ms pkgNum=1 height=9
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=3
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=3 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500040000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 state=0xc89e7a2890e39b966de6bee9d3dbf5bb79828b41e87c20ca3b5b1bb5dd74fd6a duration=82.456ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=9 round=1557885835 state=0xc89e7a2890e39b966de6bee9d3dbf5bb79828b41e87c20ca3b5b1bb5dd74fd6a hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 duration=82.590ms elapse=3985 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885835044
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0x66365f0e6f4dbc499ce82adb5e525b7964be39ccd830b3569b726a8a6b02180a new=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344
+t=2019-05-15T10:03:59+0800 lvl=info msg="Try to insert future txPackage block" txPkgHash=0x4afa573652133c8acfd92417c2e8f58db951ba14d61314a841e5ffbdee6b978a blockHash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 height=10
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=339982b82298a2c3 height=10 round=1557885836 hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 parent=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 height=10 duration=4.839ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 height=9 hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 block height=10
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 height=10 duration=9.405ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 recipients=0 duration=9.485ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=10 round=1557885836 hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 duration=9.557ms elapse=3035 hop=1 txCount=0 pkgCount=0 blockMinedTime=1557885836072
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=10 full hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 parent=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 duration=9.619ms pkgNum=0 height=10
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500045000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 state=0xa47f418f0a9b90ae1849814b7a3b296afdfc3cacd8df0caa5254e2e4d9dd984f duration=9.698ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=10 round=1557885836 state=0xa47f418f0a9b90ae1849814b7a3b296afdfc3cacd8df0caa5254e2e4d9dd984f hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 duration=9.824ms elapse=3035 hop=1 txCount=0 pkgCount=0 blockMinedTime=1557885836072
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 new=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a height=11
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x5402a40064c79fad2164a3d365bbffb39b1b995408ace3b6b81f17231844f344 height=9
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 height=10
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=339982b82298a2c3 height=11 round=1557885837 hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a parent=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a height=11 duration=4.750ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 height=10 hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a block height=11
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=339982b82298a2c3 height=11 hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a err="Block txPackage missing" miss=0xdd73ac1771d021b74d2feb72eb2fbec66973ac7917438ef933f83d62fda2761e
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=11 round=1557885837 hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a parent=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a height=11 duration=93.389ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 height=10 hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a block height=11
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated tx package" peer=339982b82298a2c3 packer=0x4618cd0 nonce=4 hash=0xdd73ac1771d021b74d2feb72eb2fbec66973ac7917438ef933f83d62fda2761e
+t=2019-05-15T10:03:59+0800 lvl=info msg="Announced tx package" hash=0xdd73ac1771d021b74d2feb72eb2fbec66973ac7917438ef933f83d62fda2761e recipients=1 duration=1.884ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a height=11 duration=98.101ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a recipients=0 duration=98.183ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=11 round=1557885837 hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a duration=98.253ms elapse=1933 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885837095
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=11 full hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a parent=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 duration=98.318ms pkgNum=1 height=11
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=4
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=4 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500050000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a state=0x3ef90c607d220d9a65dab0566c7f3544ce015ebb1edca181f8a439c670d50ece duration=100.402ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=11 round=1557885837 state=0x3ef90c607d220d9a65dab0566c7f3544ce015ebb1edca181f8a439c670d50ece hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a duration=100.566ms elapse=1933 hop=0 txCount=0 pkgCount=1 blockMinedTime=1557885837095
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0xa8c173139ab61cc18e83b3a0f5fb57440b8256a11ea3decacd02868529e4e4a7 new=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Try to insert future txPackage block" txPkgHash=0xdd73ac1771d021b74d2feb72eb2fbec66973ac7917438ef933f83d62fda2761e blockHash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc height=12
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=339982b82298a2c3 height=12 round=1557885838 hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc parent=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc height=12 duration=9.643ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a height=11 hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc block height=12
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc height=12 duration=14.010ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc recipients=0 duration=14.089ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=12 round=1557885838 hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc duration=14.189ms elapse=1112 hop=1 txCount=0 pkgCount=0 blockMinedTime=1557885838007
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=12 full hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc parent=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a duration=14.249ms pkgNum=0 height=12
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500055000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc state=0x9bf26b1beb910e889032a8e8292e1217c6761a2d9e322ea6ec413e9f5f5e6470 duration=14.323ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=12 round=1557885838 state=0x9bf26b1beb910e889032a8e8292e1217c6761a2d9e322ea6ec413e9f5f5e6470 hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc duration=14.450ms elapse=1112 hop=1 txCount=0 pkgCount=0 blockMinedTime=1557885838007
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a new=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc
+t=2019-05-15T10:03:59+0800 lvl=info msg=futureBlock hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 height=13
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=339982b82298a2c3 height=13 round=1557885839 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 parent=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 height=13 duration=9.382ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc height=12 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 block height=13
+t=2019-05-15T10:03:59+0800 lvl=eror msg="Propagated block verification failed" peer=339982b82298a2c3 height=13 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 err="Block txPackage missing" miss=0xb5ddc78899ac5b4941d4a9ef0d1a2945a442d12805a71ddecafabbbc604c657f
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x4ff2f13471b34ae857623457ff34eef6df85802cacae952ce0f146dfe562a24a height=11
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc height=12
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=13 round=1557885839 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 parent=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify Start" hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 height=13 duration=111.332ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc height=12 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 block height=13
+t=2019-05-15T10:03:59+0800 lvl=info msg="Importing propagated tx package" peer=339982b82298a2c3 packer=0x4618cd0 nonce=5 hash=0xb5ddc78899ac5b4941d4a9ef0d1a2945a442d12805a71ddecafabbbc604c657f
+t=2019-05-15T10:03:59+0800 lvl=info msg="Announced tx package" hash=0xb5ddc78899ac5b4941d4a9ef0d1a2945a442d12805a71ddecafabbbc604c657f recipients=1 duration=1.780ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block Verify OK" hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 height=13 duration=115.894ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Propagated block" hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 recipients=0 duration=115.974ms
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block OK" height=13 round=1557885839 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 duration=116.084ms elapse=4 hop=1 txCount=0 pkgCount=1 blockMinedTime=1557885839023
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 result=false
+t=2019-05-15T10:03:59+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=13 full hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417
+t=2019-05-15T10:03:59+0800 lvl=info msg=ReadBlockStateCheck hash=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc result=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify Start" hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 parent=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc duration=116.151ms pkgNum=1 height=13
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage pkg nonce" pkgNonce=5
+t=2019-05-15T10:03:59+0800 lvl=info msg="ExecuteTxPackage success" txPackage.Nonce=5 txPackage.Packer=0xF3A30D5f2491CFfad189A0399eDeae65565477a6
+t=2019-05-15T10:03:59+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500060000000000
+t=2019-05-15T10:03:59+0800 lvl=info msg="Block TxExec Verify OK" hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 state=0x951cefac064efcaadb169da769481aa23473ee0d177e613933bf2f21ccf827b7 duration=118.386ms
+t=2019-05-15T10:03:59+0800 lvl=info msg=WriteBlockStateCheck hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 flag=true
+t=2019-05-15T10:03:59+0800 lvl=info msg="Insert block state OK" height=13 round=1557885839 state=0x951cefac064efcaadb169da769481aa23473ee0d177e613933bf2f21ccf827b7 hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 duration=118.539ms elapse=4 hop=1 txCount=0 pkgCount=1 blockMinedTime=1557885839023
+t=2019-05-15T10:03:59+0800 lvl=info msg="Switch head block" old=0xf7631810582940a23a9e16357fb94dda7e24acf42c8bd662f1590676650065cc new=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417
+t=2019-05-15T10:03:59+0800 lvl=info msg="Try to insert future txPackage block" txPkgHash=0xb5ddc78899ac5b4941d4a9ef0d1a2945a442d12805a71ddecafabbbc604c657f blockHash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417
+t=2019-05-15T10:03:59+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 height=13
+t=2019-05-15T10:04:00+0800 lvl=info msg="Importing propagated block" peer=ac5675c3ffd17ecf height=14 round=1557885840 hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 parent=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417
+t=2019-05-15T10:04:00+0800 lvl=info msg="Block Verify Start" hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 height=14 duration=148.299µs
+t=2019-05-15T10:04:00+0800 lvl=info msg=VerifyBlock mainChainHeadBlock hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 height=13 hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 block height=14
+t=2019-05-15T10:04:00+0800 lvl=info msg="Block Verify OK" hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 height=14 duration=4.891ms
+t=2019-05-15T10:04:00+0800 lvl=info msg="Propagated block" hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 recipients=1 duration=4.982ms
+t=2019-05-15T10:04:00+0800 lvl=info msg="Insert block OK" height=14 round=1557885840 hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 duration=5.031ms elapse=2 hop=1 txCount=0 pkgCount=0 blockMinedTime=1557885840043
+t=2019-05-15T10:04:00+0800 lvl=info msg=ReadBlockStateCheck hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 result=false
+t=2019-05-15T10:04:00+0800 lvl=info msg="GetBlockStateChecked error can't find state" block height=14 full hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573
+t=2019-05-15T10:04:00+0800 lvl=info msg=ReadBlockStateCheck hash=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 result=true
+t=2019-05-15T10:04:00+0800 lvl=info msg="Block TxExec Verify Start" hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 parent=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 duration=5.169ms pkgNum=0 height=14
+t=2019-05-15T10:04:00+0800 lvl=info msg="mine reward" coinbase=0xF3A30D5f2491CFfad189A0399eDeae65565477a6 preBalance=500065000000000
+t=2019-05-15T10:04:00+0800 lvl=info msg="Block TxExec Verify OK" hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 state=0xb41fcc46b2ed900ebddfefa3880d771a6bfcec47f296b9b72d0b71e2071d4eaf duration=5.271ms
+t=2019-05-15T10:04:00+0800 lvl=info msg=WriteBlockStateCheck hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 flag=true
+t=2019-05-15T10:04:00+0800 lvl=info msg="Insert block state OK" height=14 round=1557885840 state=0xb41fcc46b2ed900ebddfefa3880d771a6bfcec47f296b9b72d0b71e2071d4eaf hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 duration=5.432ms elapse=2 hop=1 txCount=0 pkgCount=0 blockMinedTime=1557885840043
+t=2019-05-15T10:04:00+0800 lvl=info msg="Switch head block" old=0x1d59a519f81c2db38d8cb03eec0ce3cc9691c75d134b91da5f2fc31ce3ce1417 new=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573
+t=2019-05-15T10:04:00+0800 lvl=info msg="blockProcessLoop:have been in blockProcessing Set or in blockChain" hash=0x81763a9b645f37d91aff1f779541e7cf1e880b0b6d85089b73985ad7a128b573 height=14
+t=2019-05-15T10:04:00+0800 lvl=info msg="Importing propagated tx package" peer=ac5675c3ffd17ecf packer=0x4618cd0 nonce=6 hash=0x9086dd3925346e294df908b502b3fe880e308a4d9c4a667a0304dee89405db95
+t=2019-05-15T10:04:00+0800 lvl=info msg="Announced tx package" hash=0x9086dd3925346e294df908b502b3fe880e308a4d9c4a667a0304dee89405db95 recipients=1 duration=1.766ms

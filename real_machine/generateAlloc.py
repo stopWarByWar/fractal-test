@@ -1,5 +1,6 @@
 import commands
 import json
+from multiprocessing import Pool
 
 servers = [
     "10.1.1.50",
@@ -9,12 +10,24 @@ servers = [
     "10.1.1.54"
 ]
 
+
+def get_addr(i):
+    cmd = "ssh root@%s 'find /root/run/ -name addr | xargs cat'" % servers[i]
+    (status, output) = commands.getstatusoutput(cmd)
+    return output.split("\n")
+
 def get_addr_list():
+    p = Pool(500)
     addrs = []
-    for s in servers:
-        (status, output) = commands.getstatusoutput("ssh %s 'find /root/run/ -name addr | xargs cat'" % s)
-        addrs.extend(output.split("\n"))
+    for nserver in range(0, len(servers)):
+        add = p.apply_async(get_addr, args=(nserver,))
+        addr=add.get()[0]
+        print addr
+        addrs.append(addr)
+    p.close()
+    p.join()
     return addrs
+
 
 def generate_alloc_json(addrs):
     v = {}
@@ -29,5 +42,6 @@ def generate_alloc_json(addrs):
 
 if __name__ == "__main__":
     addrs = get_addr_list()
+
     generate_alloc_json(addrs)
 

@@ -39,6 +39,8 @@ servers = [
 count = {0:0}
 global total
 global maximum
+global txpkg
+txpkg = 0
 total = 0
 maximum = 0
 
@@ -66,6 +68,7 @@ def counte_dely(line,grading):
     global maximum
     data_array = line.split(' ')
     duration = data_array[8].split('=')[1]
+    pkgCount = int(data_array[-1].split('=')[1])
     if "µ" in duration:
         dur = 0
     elif 'm' in duration:
@@ -94,6 +97,8 @@ def counte_dely(line,grading):
 
     global total
     total = total + 1
+    global txpkg
+    txpkg = txpkg + pkgCount
 
 def clean_time(stime,etime,time):
     if stime < time and etime > time:
@@ -114,14 +119,27 @@ def count_percentage(i):
             current = current + count[k]
     return (current / total) * 100
 
-if __name__ == "__main__":
-    stime = datetime.strptime("2019-03-14 21:00:23","%Y-%m-%d %H:%M:%S")
-    etime = datetime.strptime("2019-03-16 21:00:25","%Y-%m-%d %H:%M:%S")
+def count_accout():
+    a = 0
+    file = './tx.log'
+    print "open the log of %s" % file
+    with open(file, 'r') as f:
+        line = f.readline()
+        while line:
+            if "Addr" in line:
+                a = a + 1
+            line = f.readline()
+    print "The num of accounts is %d" % a
 
+if __name__ == "__main__":
+    stime = datetime.strptime("2019-03-14 21:00:23", "%Y-%m-%d %H:%M:%S")
+    etime = datetime.strptime("2019-03-16 21:00:25", "%Y-%m-%d %H:%M:%S")
     current = 0.0
-    percentage = {0:0.0}
-    analyze(1000000,stime,etime)
+    percentage = {0: 0.0}
+    analyze(1000000, stime, etime)
     print count
+
+    print "the average of pkgCount is %f" % float(txpkg / total)
 
     perx98 = 0
     perx95 = 0
@@ -156,20 +174,20 @@ if __name__ == "__main__":
 
     plt.title("network delay", fontproperties='SimHei')
     plt.ylim((0, 110))
-    plt.xlim((0,10))
+    plt.xlim((0, 10))
     plt.xlabel(u'delay time/s', fontproperties='SimHei', fontsize=14)
     plt.ylabel(u'percentage  %', fontproperties='SimHei', fontsize=14)
 
     plt.scatter(perx80, pery80, color='blue')
     plt.scatter(perx95, pery95, color='blue')
     plt.scatter(perx98, pery98, color='blue')
-    plt.plot([perx80, perx80], [pery80, 0],'k--',color="blue", lw=1)
-    plt.plot([perx95, perx95], [pery95, 0],'k--',color="blue", lw=1)
-    plt.plot([perx98, perx98], [pery98, 0],'k--',color="blue", lw=1)
+    plt.plot([perx80, perx80], [pery80, 0], 'k--', color="blue", lw=1)
+    plt.plot([perx95, perx95], [pery95, 0], 'k--', color="blue", lw=1)
+    plt.plot([perx98, perx98], [pery98, 0], 'k--', color="blue", lw=1)
 
-    plt.plot(x,y, color='red')
-#    plt.plot(x,y1,color='blue')
-    plt.text(3,30, r'98% : '+ str(perx98), fontdict={'size': 14, 'color': 'blue'})
-    plt.text(3,20, r'95% : '+ str(perx95), fontdict={'size': 14, 'color': 'blue'})
-    plt.text(3,10, r'80% : '+ str(perx80), fontdict={'size': 14, 'color': 'blue'})
+    plt.plot(x, y, color='red')
+    #    plt.plot(x,y1,color='blue')
+    plt.text(3, 30, r'98% : ' + str(perx98), fontdict={'size': 14, 'color': 'blue'})
+    plt.text(3, 20, r'95% : ' + str(perx95), fontdict={'size': 14, 'color': 'blue'})
+    plt.text(3, 10, r'80% : ' + str(perx80), fontdict={'size': 14, 'color': 'blue'})
     plt.show()
