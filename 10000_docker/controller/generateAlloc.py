@@ -6,7 +6,7 @@ from multiprocessing import Pool
 servers = []
 
 def get_addr(i):
-    cmd = "ssh %s 'find /root/run/ -name addr | xargs cat'" % servers[i]
+    cmd = "ssh %s 'find /data/run/ -name addr | xargs cat'" % servers[i]
     (status, output) = commands.getstatusoutput(cmd)
     return output.split("\n")
 
